@@ -9,6 +9,8 @@ A repo for comparing various flavors of LISP.
 - [X] [Armed Bear](https://common-lisp.net/project/armedbear/)
 - [ ] [Clozure](http://ccl.clozure.com/)
 - [ ] [Hy](http://docs.hylang.org/en/latest/)
+- [ ] [Steel Bank CL](http://www.sbcl.org/)
+- [ ] [Emacs LISP](https://www.gnu.org/software/emacs/manual/eintr.html)
 
 ### Common Lisp
 Install: `brew install clisp`
@@ -34,3 +36,15 @@ Install: `brew install clozure-cl`
 Compile: `null`
 Run: `hy [blah]`
 REPL: `hy stuff` 
+
+### Steel Bank Common Lisp
+Install: `brew install `
+Compile: `null`
+Run: ` [blah]`
+REPL: ` stuff` 
+
+### Emacs LISP
+Install: `brew install `
+Compile: `null`
+Run: ` [blah]`
+REPL: ` stuff` 
