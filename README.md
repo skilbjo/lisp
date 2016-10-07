@@ -14,11 +14,11 @@ A repo for comparing various flavors of LISP.
 - [X] [Hy](http://docs.hylang.org/en/latest/)
 
 ### Common Lisp
-Install: `brew install clisp`
-Compile: `null`
-Run: `clisp $file`
-REPL: `clisp`
-Scripting: `#!/usr/bin/env clisp; chmod 744 [file]; ./[file]`
+- Install: `brew install clisp`
+- Compile: `null`
+- Run: `clisp $file`
+- REPL: `clisp`
+- Scripting: `#!/usr/bin/env clisp; chmod 744 [file]; ./[file]`
 
 ### Scheme
 Install: `brew install mit-scheme`
