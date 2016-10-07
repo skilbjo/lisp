@@ -13,6 +13,8 @@ A repo for comparing various flavors of LISP.
 - [ ] [Racket](https://racket-lang.org/)
 - [X] [Hy](http://docs.hylang.org/en/latest/)
 
+======
+
 ### [Common Lisp](0. Common Lisp)
 - Install: `brew install clisp`
 - Compile: `null`
@@ -21,46 +23,46 @@ A repo for comparing various flavors of LISP.
 - Scripting: `#!/usr/bin/env clisp; chmod 744 [file]; ./[file]`
 
 ### Scheme
-Install: `brew install mit-scheme`
-Compile: `null`
-Run: `scheme <hello.scm`
-REPL: `scheme`
+- Install: `brew install mit-scheme`
+- Compile: `null`
+- Run: `scheme <hello.scm`
+- REPL: `scheme`
 
 ### Armed Bear
-Install: `brew install abcl`
-Compile: `$ abcl ; CL-USER(1): :cl [file]`
-Run: `$ abcl ; CL-USER(1) :l [file]`
-REPL: `abcl`
+- Install: `brew install abcl`
+- Compile: `$ abcl ; CL-USER(1): :cl [file]`
+- Run: `$ abcl ; CL-USER(1) :l [file]`
+- REPL: `abcl`
 
 ### Clozure Common Lisp
-Install: `brew install clozure-cl`
-Compile: `null`
-Run: `hy [blah]`
-REPL: `hy stuff` 
+- Install: `brew install clozure-cl`
+- Compile: `null`
+- Run: `hy [blah]`
+- REPL: `hy stuff` 
 
 ### Steel Bank Common Lisp
-Install: `brew install sbcl`
-Compile: `null`
-Run: `sbcl --script $file`
-REPL: `sbcl` 
+- Install: `brew install sbcl`
+- Compile: `null`
+- Run: `sbcl --script $file`
+- REPL: `sbcl` 
 
 ### Emacs LISP
-Install: `brew install `
-Compile: `null`
-Run: ` [blah]`
-REPL: ` stuff` 
+- Install: `brew install `
+- Compile: `null`
+- Run: ` [blah]`
+- REPL: ` stuff` 
 
 ### Racket
-Install: `pip `
-Compile: `hyc `
-Run: `[blah]`
-REPL: `blah` 
+- Install: `pip `
+- Compile: `hyc `
+- Run: `[blah]`
+- REPL: `blah` 
 
 ### Hy
-Install: `mkvirtualenv hy --python=$(which python3) \
+- Install: `mkvirtualenv hy --python=$(which python3) \
     pip install git+https://github.com/hylang/hy.git`
-Compile: `hyc $file \
+- Compile: `hyc $file \
   python $file.pyc`
-Run: `hy [blah]`
-REPL: `hy` 
+- Run: `hy [blah]`
+- REPL: `hy` 
 
