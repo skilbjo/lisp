@@ -13,7 +13,7 @@ A repo for comparing various flavors of LISP.
 - [ ] [Racket](https://racket-lang.org/)
 - [X] [Hy](http://docs.hylang.org/en/latest/)
 
-### Common Lisp
+### [Common Lisp](0. Common Lisp)
 - Install: `brew install clisp`
 - Compile: `null`
 - Run: `clisp $file`
