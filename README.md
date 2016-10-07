@@ -62,6 +62,7 @@ A repo for comparing various flavors of LISP.
 - Install: ```...```
     ```mkvirtualenv hy --python=$(which python3) \
     pip install git+https://github.com/hylang/hy.git```
+
 - Install: `mkvirtualenv hy --python=$(which python3) \
     pip install git+https://github.com/hylang/hy.git`
 - Compile: `hyc $file \
