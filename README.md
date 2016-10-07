@@ -22,43 +22,43 @@ A repo for comparing various flavors of LISP.
 - REPL: `clisp`
 - Scripting: `#!/usr/bin/env clisp; chmod 744 [file]; ./[file]`
 
-### Scheme
+### [Scheme](1. Scheme)
 - Install: `brew install mit-scheme`
 - Compile: `null`
 - Run: `scheme <hello.scm`
 - REPL: `scheme`
 
-### Armed Bear
+### [Armed Bear](2. Armed Bear)
 - Install: `brew install abcl`
 - Compile: `$ abcl ; CL-USER(1): :cl [file]`
 - Run: `$ abcl ; CL-USER(1) :l [file]`
 - REPL: `abcl`
 
-### Clozure Common Lisp
+### [Clozure Common Lisp](3. Clozure)
 - Install: `brew install clozure-cl`
 - Compile: `null`
 - Run: `hy [blah]`
 - REPL: `hy stuff` 
 
-### Steel Bank Common Lisp
+### [Steel Bank Common Lisp](4. Steel Bank)
 - Install: `brew install sbcl`
 - Compile: `null`
 - Run: `sbcl --script $file`
 - REPL: `sbcl` 
 
-### Emacs LISP
+### [Emacs LISP](5. Emacs LISP)
 - Install: `brew install `
 - Compile: `null`
 - Run: ` [blah]`
 - REPL: ` stuff` 
 
-### Racket
+### [Racket](6. Racket)
 - Install: `pip `
 - Compile: `hyc `
 - Run: `[blah]`
 - REPL: `blah` 
 
-### Hy
+### [Hy](7. Hy)
 - Install: `mkvirtualenv hy --python=$(which python3) \
     pip install git+https://github.com/hylang/hy.git`
 - Compile: `hyc $file \
