@@ -6,7 +6,4 @@
   (lambda (name)
     (string-append "Hello " name)))
 
-(hello-world) 
-
 (salutations "John")
-

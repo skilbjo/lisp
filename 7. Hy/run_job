@@ -1,5 +1,16 @@
 #!/usr/bin/env bash
 
+source /usr/local/bin/virtualenvwrapper.sh
+
 if [[ $VIRTUAL_ENV ]]; then
   hy -c '(print "hi")'
+else
+  if lsvirtualenv | grep hy ; then
+    workon hy
+    hy -c '(print "hi")'
+  else
+    mkvirtualenv hy --python=$(which python3)
+    pip install git+https://github.com/hylang/hy.git
+    hy -c '(print "hi")'
+  fi
 fi
