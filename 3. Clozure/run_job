@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+file=$1
+
+ccl -e '(progn (load "'$file'") (ccl::quit))'
