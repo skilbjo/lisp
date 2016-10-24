@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+dir="target/uberjar"
+jar="hello-1-standalone.jar"
+uberjar="$dir/$jar"
+
+if [[ $# -eq 0 ]]; then
+  file="$uberjar"
+else
+  file=$1
+fi
+
+run_uberjar() {
+  java -jar $uberjar
+}
+
+create_uberjar() {
+  lein uberjar
+}
+if [[ ! -s $uberjar ]]; then
+  create_uberjar
+fi
+
+run_uberjar || lein run
